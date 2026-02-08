@@ -2,4 +2,10 @@
 
 body{
     background-color: rgb(180, 180, 246);
+    margin: 0;
+    padding: 0;
+}
+
+.navlinks{
+    padding: 1em;
 }
