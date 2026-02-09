@@ -1,0 +1,12 @@
+.app-container{
+    height: 100vh;
+}
+
+.light{
+    background-color: rgb(180, 180, 246);
+}
+
+.dark{
+    background-color: #000;
+    color: #fff;
+}
