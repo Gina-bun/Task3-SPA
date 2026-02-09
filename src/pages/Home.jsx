@@ -1,5 +1,6 @@
 import {motion} from "framer-motion"
 import { LandingPage } from "../components/LandingPage"
+import { Menu } from "../components/Menu"
 
 export function Home({theme}){
     return(
@@ -11,6 +12,7 @@ export function Home({theme}){
             transition={{duration: 0.3}}
         >
                <LandingPage theme={theme}/>
+               <Menu theme={theme}/>
         </motion.div>
       
     )

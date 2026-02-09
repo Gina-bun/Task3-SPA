@@ -1,0 +1,24 @@
+.menu-container{
+padding: 1em 0;
+}
+
+.menu-title{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 1.1em;
+}
+
+.menu-list{
+ padding: .2em 1.3em;
+}
+
+.flavour{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #000;
+    padding-top: .5em;
+}
+
+.dark .flavour{
+    border-bottom: 1px dashed #fff;
+}
