@@ -1,16 +1,41 @@
 import { Link } from "react-router-dom";
 import { ThemeToggle } from "../Theme/ThemeToggle";
+import "./Navbar.css";
 
-export function Navbar({theme, toggleTheme}) {
+export function Navbar({ theme, toggleTheme }) {
   return (
     <>
-      <nav className="bg-red-300 flex justify-between items-center px-2.5">
-        <h1>LOGO</h1>
-        <div className="navlinks flex gap-7.5">
-          <Link to='/'>Home</Link>
-          <Link to='/about'>About</Link>
-          <Link to='/contact'>Contact</Link>
-          <ThemeToggle theme={theme} toggleTheme={toggleTheme}/>
+      <nav className="bg-red-300 py-[.5em] flex justify-between items-center ">
+        <h1 className="logo">LOGO</h1>
+        <div className="flex">
+          {/* for mobile */}
+          <div className="flex gap-5 items-center">
+            <Link className="nav-link" to="/">
+              🏠︎
+            </Link>
+            <Link className="nav-link" to="/about">
+              🛈
+            </Link>
+            <Link className="nav-link" to="/contact">
+              ☏
+            </Link>
+       
+          </div>
+
+          {/* for tablet & desktop */}
+          <div className="navlinks hidden gap-7.5 items-center">
+            <Link className="nav-link" to="/">
+              Home
+            </Link>
+            <Link className="nav-link" to="/about">
+              About
+            </Link>
+            <Link className="nav-link" to="/contact">
+              Contact
+            </Link>
+          </div>
+
+               <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
         </div>
       </nav>
     </>
