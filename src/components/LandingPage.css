@@ -1,0 +1,31 @@
+.landing-container{
+    height: 45vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url("../assets/shake.jpeg") no-repeat center/cover;
+}
+
+.hero-text{
+  font-size: 2.2em;
+  font-weight: 900;
+  color: transparent;
+  text-align: center;
+  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke: 2px dashed white;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  line-height: 2;
+  margin-top: 1em;
+}
+
+.wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  display: block;
+  bottom: -1px;
+}
+

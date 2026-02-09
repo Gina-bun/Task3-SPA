@@ -21,9 +21,10 @@ function App() {
     <div className={`app-container ${theme}`}>
          <Navbar theme={theme} toggleTheme={toggleTheme}/>
 
+
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home theme={theme}/>} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

@@ -5,3 +5,7 @@
 .nav-link{
     font-size: 21px;
 }
+
+.nav-link:last-of-type{
+    font-weight: bold;
+}

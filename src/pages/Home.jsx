@@ -1,7 +1,7 @@
 import {motion} from "framer-motion"
+import { LandingPage } from "../components/LandingPage"
 
-
-export function Home(){
+export function Home({theme}){
     return(
         
         <motion.div
@@ -10,7 +10,7 @@ export function Home(){
             exit={{opacity: 0}}
             transition={{duration: 0.3}}
         >
-              <h1>Home Page</h1>
+               <LandingPage theme={theme}/>
         </motion.div>
       
     )
