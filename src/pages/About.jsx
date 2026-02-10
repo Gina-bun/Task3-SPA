@@ -43,7 +43,7 @@ export function About() {
                 birthdays!
               </p>
               <p>✨We believe colours taste better</p>
-              <p>✨We have thought of making a veggie milkshake before</p>
+              <p>✨We have thought about making a veggie milkshake before</p>
             </div>
           </div>
         </div>
