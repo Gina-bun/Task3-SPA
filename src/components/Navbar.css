@@ -10,3 +10,19 @@
 .nav-link:last-of-type{
     font-weight: bold;
 }
+
+@media (min-width: 768px){
+     .navlinks{
+        display: none;
+    }
+
+    .navlinks-lg{
+        display: flex;
+        padding-right: 1em;
+        font-family: "Fredoka", sans-serif;
+    }
+
+    .nav-link:last-of-type{
+    font-weight: normal;
+}
+}

@@ -9,7 +9,7 @@ export function Navbar({ theme, toggleTheme }) {
         <img className="logo -my-[1em]" src="/src/assets/logo.png" alt="" />
         <div className="flex">
           {/* for mobile */}
-          <div className="flex gap-5 items-center">
+          <div className="flex gap-5 navlinks items-center">
             <Link className="nav-link" to="/">
               🏠︎
             </Link>
@@ -23,7 +23,7 @@ export function Navbar({ theme, toggleTheme }) {
           </div>
 
           {/* for tablet & desktop */}
-          <div className="navlinks hidden gap-7.5 items-center">
+          <div className="navlinks navlinks-lg hidden gap-7.5 items-center">
             <Link className="nav-link" to="/">
               Home
             </Link>
