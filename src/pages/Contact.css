@@ -19,7 +19,8 @@
     width: 305px;
     height: 150px;
     border-radius: 6px;
-    background-color: #f79d65;
+    background-color: #ebe8e5;
+    opacity: .4;
     transform: rotate(-3deg);
 }
 
@@ -28,7 +29,7 @@
     position: absolute;
     inset: 0;
     z-index: -1;
-    top: 35%; 
+    top: 25%; 
     left: 6%;
   
 }
@@ -63,7 +64,12 @@ p{
     font-size: 1.1em;
 }
 
-.contact-title{
+.title{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    color:#f25c54;
+    
+    font-family: "Fredoka", sans-serif;
+    font-weight:500;
+
 }

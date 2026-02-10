@@ -5,8 +5,8 @@ import "./Navbar.css";
 export function Navbar({ theme, toggleTheme }) {
   return (
     <>
-      <nav className="bg-[#f27059] py-[.5em] flex justify-between items-center ">
-        <h1 className="logo">LOGO</h1>
+      <nav className="bg-[#f27059] flex justify-between items-center ">
+        <img className="logo -my-[1em]" src="/src/assets/logo.png" alt="" />
         <div className="flex">
           {/* for mobile */}
           <div className="flex gap-5 items-center">

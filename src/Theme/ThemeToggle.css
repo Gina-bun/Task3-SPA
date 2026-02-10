@@ -13,7 +13,7 @@
     padding: .2em;
     position: relative;
     border-radius: 16px;
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease;
 }
 
 .slider-button{
@@ -24,7 +24,7 @@
     left: 2px;
     border-radius: 50%;
     cursor: pointer;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease;
 }
 
 /* When the theme is dark, slider icon/button moves and bg changes */

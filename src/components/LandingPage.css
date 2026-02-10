@@ -29,3 +29,12 @@
   bottom: -1px;
 }
 
+.wave path{
+  fill: #eae2b7;
+}
+
+.landing-container.dark .wave path{
+  fill: #000;
+  
+}
+

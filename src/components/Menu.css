@@ -5,7 +5,12 @@ padding: 1em 0;
 .menu-title{
     text-align: center;
     padding-top: 1em;
-    font-size: 1.1em;
+    font-size: 1.3em;
+    color:#f25c54;
+    
+    font-family: "Fredoka", sans-serif;
+    font-weight:500;
+
 }
 
 .menu-list{

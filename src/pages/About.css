@@ -15,10 +15,16 @@ img{
     border-radius: 16px;
 }
 
+.about-title{
+    font-size: 1.3em;
+    color:#f25c54;
+    
+    font-family: "Fredoka", sans-serif;
+    font-weight:500;
+}
 
 .about-title{
     text-align: center;
-    font-size: 1.5em;
     padding-top: 1em;
 }
 
