@@ -10,3 +10,12 @@
     background-color: #000;
     color: #fff;
 }
+
+.app-container.light .nav-link{
+color: #f8f4de;
+}
+
+.app-container.dark .nav-link{
+color: #000;
+}
+
