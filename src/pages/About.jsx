@@ -11,7 +11,7 @@ export function About() {
     >
       <div className="about-container">
         <div className="about-img">
-          <img src="/src/assets/about.jpeg" alt="" />
+          <img src="src/assets/about.jpeg" alt="" />
         </div>
 
         <div className="about-content">

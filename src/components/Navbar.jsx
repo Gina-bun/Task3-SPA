@@ -6,7 +6,7 @@ export function Navbar({ theme, toggleTheme }) {
   return (
     <>
       <nav className={`bg-[#f27059] flex justify-between items-center ${theme === "dark" ? "darkmode" : ""}`}>
-        <img className="logo -my-[1em]" src="/src/assets/logo.png" alt="" />
+        <img className="logo -my-[1em]" src="src/assets/logo.png" alt="" />
         <div className="flex">
           {/* for mobile */}
           <div className="flex gap-5 navlinks items-center">
