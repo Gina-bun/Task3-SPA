@@ -2,7 +2,6 @@
   text-align: center;
   height: 580px;
   padding: 1.5em 1em;
-  padding-bottom: 2em;
   display: flex;
   flex-direction: column;
   /* position: relative; */
@@ -73,9 +72,6 @@ p {
 
 /* tablet view */
 @media (min-width: 768px) {
-  /* .contact-container {
-    height: 88.5vh;
-  } */
   .title {
     font-size: 2em;
   }
