@@ -28,9 +28,26 @@ padding: 1em 0;
     border-bottom: 1px dashed #fff;
 }
 
+/* tablet view */
 @media (min-width: 768px){
     .menu-list{
         padding: .2em 4em;
         padding-bottom: 2em;
+    }
+
+     .menu-title{
+    font-size: 1.5em;
+    }
+}
+
+/* desktop view */
+@media (min-width: 1024px){
+  .menu-list{
+        padding: .2em 20em;
+        padding-bottom: 3em;
+    }  
+
+        .menu-title{
+    font-size: 1.7em;
     }
 }

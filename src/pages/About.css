@@ -55,3 +55,25 @@ img {
   padding-top: .3em;
 }
 }
+
+/* desktop view */
+@media (min-width: 1024px) {
+.about-container {
+  padding-top: 5em;
+  flex-direction:row ;
+  align-items: start;
+  justify-content: center;
+}
+
+.about-img {
+  width: 50vh;
+  border-radius: 16px;
+  transform: rotate(-4deg);
+  margin-right: 5rem;
+  align-self: center;
+}
+
+.about-content{
+  width: 50vh;
+}
+}

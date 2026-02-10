@@ -38,10 +38,18 @@
   
 }
 
+/* tablet view */
 @media (min-width: 768px){
   .hero-text{
     font-size: 3.3em;
     margin-top: .5em;
   }
+}
+
+/* desktop view */
+@media (min-width: 1024px){
+ .landing-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url("../assets/shake.jpeg") no-repeat center/cover;
+}
 }
 
