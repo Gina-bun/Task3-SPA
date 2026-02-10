@@ -7,13 +7,14 @@
 
 .about-img{
     width: 80px;
-    border-radius: 50%;
-    
+    border-radius: 16px;
+    transform: rotate(-4deg); 
 }
 
 img{
-    border-radius: 50%;
+    border-radius: 16px;
 }
+
 
 .about-title{
     text-align: center;
@@ -23,4 +24,5 @@ img{
 
 .about-text{
     text-align: justify;
+    padding: 0 1em;
 }
