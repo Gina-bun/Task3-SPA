@@ -34,7 +34,6 @@ img {
 /* tablet view */
 @media (min-width: 768px) {
   .about-container {
-    height: 88.5vh;
     padding: 2em 3em;
   }
 
@@ -53,6 +52,12 @@ img {
  {
   font-size: 2em;
   padding-top: .3em;
+}
+
+.funfact-text,
+.about-text
+ {
+  text-align: center;
 }
 }
 

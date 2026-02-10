@@ -73,9 +73,9 @@ p {
 
 /* tablet view */
 @media (min-width: 768px) {
-  .contact-container {
+  /* .contact-container {
     height: 88.5vh;
-  }
+  } */
   .title {
     font-size: 2em;
   }

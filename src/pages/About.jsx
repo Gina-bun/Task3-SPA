@@ -18,7 +18,7 @@ export function About() {
         <div className="about-content">
          <div className="about-section">
            <h1 className=" title" id="about-title">Our Story</h1>
-          <p className="about-text">
+          <p id="about-text" className="about-text">
             At Milkshake Point, we believe every sip should bring a smile. We
             craft our shakes with fresh ingredients, colorful flavors, and a
             little sprinkle of fun. From classic vanilla to wild fruity
@@ -31,7 +31,7 @@ export function About() {
           {/* funfacts */}
           <div className="fun-facts">
             <h1 className="title" id="funfact-title">Fun facts⋆˚࿔</h1>
-            <div className="funfact-text flex flex-col gap-1.5 px-[1em] text-justify">
+            <div id="funfact-text" className="funfact-text flex flex-col gap-1.5 px-[1em] text-justify">
               <p>
                 ✨Our best milkshake was created when our cat picked a random
                 flavour combo from folded papers!

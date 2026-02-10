@@ -6,7 +6,7 @@ export function LandingPage({theme}) {
       <div className={`landing-container ${theme}`}>
         <h1 className="hero-text" data-text="Creamy. Dreamy. Delicious.">Creamy. <br /> Dreamy. <br /> Delicious.</h1>
         <svg
-        className={`wave`}
+        className="wave"
         viewBox="0 0 1440 120"
         preserveAspectRatio="none"
       >

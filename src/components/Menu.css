@@ -1,5 +1,6 @@
 .menu-container{
 padding: 1em 0;
+padding-bottom: 4em;
 }
 
 .menu-title{
@@ -28,11 +29,9 @@ padding: 1em 0;
     border-bottom: 1px dashed #fff;
 }
 
+
 /* tablet view */
 @media (min-width: 768px){
-    .menu-container{
-        min-height: 446px;
-    }
     .menu-list{
         padding: .2em 4em;
         padding-bottom: 2em;
