@@ -30,6 +30,9 @@ padding: 1em 0;
 
 /* tablet view */
 @media (min-width: 768px){
+    .menu-container{
+        min-height: 446px;
+    }
     .menu-list{
         padding: .2em 4em;
         padding-bottom: 2em;
@@ -47,7 +50,7 @@ padding: 1em 0;
         padding-bottom: 3em;
     }  
 
-        .menu-title{
+    .menu-title{
     font-size: 1.7em;
     }
 }

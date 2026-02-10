@@ -74,7 +74,7 @@ p {
 /* tablet view */
 @media (min-width: 768px) {
   .contact-container {
-    height: 87vh;
+    height: 88.5vh;
   }
   .title {
     font-size: 2em;
