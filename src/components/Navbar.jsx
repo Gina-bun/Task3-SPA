@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { ThemeToggle } from "../Theme/ThemeToggle";
+import LogoImg from "../assets/logo.png";
 import "./Navbar.css";
 
 export function Navbar({ theme, toggleTheme }) {
   return (
     <>
       <nav className={`bg-[#f27059] flex justify-between items-center ${theme === "dark" ? "darkmode" : ""}`}>
-        <img className="logo -my-[1em]" src="src/assets/logo.png" alt="" />
+        <img className="logo -my-[1em]" src={LogoImg} alt="Milkshake Point Logo" />
         <div className="flex">
           {/* for mobile */}
           <div className="flex gap-5 navlinks items-center">

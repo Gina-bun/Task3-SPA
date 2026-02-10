@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import AboutImg from "../assets/about.png";
 import "./About.css";
 
 export function About() {
@@ -11,7 +12,7 @@ export function About() {
     >
       <div className="about-container">
         <div className="about-img">
-          <img src="src/assets/about.jpeg" alt="" />
+          <img src={AboutImg} alt="" />
         </div>
 
         <div className="about-content">
