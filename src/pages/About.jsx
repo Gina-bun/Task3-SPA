@@ -12,7 +12,7 @@ export function About() {
     >
       <div className="about-container">
         <div className="about-img">
-          <img src={AboutImg} alt="" />
+          <img src={AboutImg} alt="about image" loading="lazy" />
         </div>
 
         <div className="about-content">

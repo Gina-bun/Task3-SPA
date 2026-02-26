@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://milkshakepoint.netlify.app/sitemap.xml

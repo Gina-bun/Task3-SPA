@@ -3,7 +3,7 @@ import "./LandingPage.css";
 export function LandingPage({theme}) {
   return (
     <>
-      <div className={`landing-container ${theme}`}>
+      <div role="banner" className={`landing-container ${theme}`}>
         <h1 className="hero-text" data-text="Creamy. Dreamy. Delicious.">Creamy. <br /> Dreamy. <br /> Delicious.</h1>
         <svg
         className="wave"

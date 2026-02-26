@@ -4,9 +4,9 @@ export function Footer(){
 
     return (
         <>
-        <div className="footer">
+        <footer role="contentinfo" className="footer">
             <p>© 2026 Milkshake Point</p>
-        </div>
+        </footer>
         </>
     )
 }

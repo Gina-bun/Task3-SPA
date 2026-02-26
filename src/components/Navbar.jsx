@@ -6,7 +6,7 @@ import "./Navbar.css";
 export function Navbar({ theme, toggleTheme }) {
   return (
     <>
-      <nav className={`bg-[#f27059] flex justify-between items-center ${theme === "dark" ? "darkmode" : ""}`}>
+      <nav role="navigation" className={`bg-[#f27059] flex justify-between items-center ${theme === "dark" ? "darkmode" : ""}`}>
         <img className="logo -my-[1em]" src={LogoImg} alt="Milkshake Point Logo" loading="lazy" />
         <div className="flex">
           {/* for mobile */}

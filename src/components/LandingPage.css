@@ -61,9 +61,9 @@
 }
 
 /* desktop view */
-@media (min-width: 1024px){
+/* @media (min-width: 1024px){
  .landing-container{
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url("../assets/shake.jpeg") no-repeat center/cover;
 }
-}
+} */
 
