@@ -19,7 +19,6 @@
     .navlinks-lg{
         display: flex;
         padding-right: 1em;
-        font-family: "Fredoka", sans-serif;
     }
 
     .nav-link:last-of-type{

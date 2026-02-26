@@ -4,13 +4,12 @@ padding-bottom: 4em;
 margin: 0;
 }
 
-.menu-title{
+.title{
     text-align: center;
     padding-top: 1em;
     font-size: 1.3em;
     color:#f25c54;
     
-    font-family: "Fredoka", sans-serif;
     font-weight:500;
 
 }

@@ -3,7 +3,7 @@ export function Menu({theme}) {
   return (
     <>
       <div role="main" className={`menu-container ${theme}`}>
-        <h1 className="menu-title">Flavour Parade</h1>
+        <h1 className="title">Flavour Parade</h1>
         <div className="menu-list">
           <div className="flavour">
             <h2>Salted Caramel Pretzel</h2>
